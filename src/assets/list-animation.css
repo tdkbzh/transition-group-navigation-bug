@@ -1,0 +1,22 @@
+.list-move, /* apply transition to moving elements */
+.list-enter-active,
+.list-leave-active {
+  transition: all 3000ms ease;
+}
+
+.list-enter-active {
+  opacity: 0;
+}
+
+.list-enter-to {
+  opacity: 1;
+}
+
+.list-leave-active {
+  position: absolute;
+  opacity: 1;
+}
+
+.list-leave-to {
+  opacity: 0;
+}
